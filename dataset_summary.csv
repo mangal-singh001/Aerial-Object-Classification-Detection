@@ -1,0 +1,4 @@
+split,class,count,example_path
+train,train,2662,F:\Data Science\ML Projects\Labmentix\Aerial Object Classification & Detection\Data\train\train\bird\000596bc75926abe_jpg.rf.49cf79ededcab42c160f599b1104f421.jpg
+valid,valid,442,F:\Data Science\ML Projects\Labmentix\Aerial Object Classification & Detection\Data\valid\valid\bird\000b4796f7fb05df_jpg.rf.424af2aea307cff3f4ecfc227b17493e.jpg
+test,test,215,F:\Data Science\ML Projects\Labmentix\Aerial Object Classification & Detection\Data\test\test\bird\00083b384685315d_jpg.rf.abfd1b2cc8c681777bae66d5327bb9ea.jpg
