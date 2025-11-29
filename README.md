@@ -1,24 +1,3 @@
-Great — based on **your actual repository structure**, I’ll rewrite a **clean, professional, and accurate README.md** that perfectly matches the files you currently have:
-
-Your repo structure (from the screenshot):
-
-```
-Aerial-Object-Classification-Detection/
-│
-├── Data/
-├── Aerial_Object.ipynb
-├── Project Title.docx
-├── README.md
-├── app.py
-├── dataset_summary.csv
-└── requirements.txt
-```
-
-Here is the **final README.md** tailored exactly for this repo 👇
-(You can directly paste this into your GitHub.)
-
----
-
 # 🛩️ Aerial Object Classification & Detection
 
 **Bird vs Drone Image Classification using Deep Learning**
@@ -187,21 +166,6 @@ streamlit run app.py
 
 ---
 
-## 📈 Results (Add your final values here)
-
-| Metric                  | Value |
-| ----------------------- | ----- |
-| **Training Accuracy**   | …     |
-| **Validation Accuracy** | …     |
-| **Test Accuracy**       | …     |
-| **Precision**           | …     |
-| **Recall**              | …     |
-| **F1-Score**            | …     |
-
-> You can paste real values once your model results are finalized.
-
----
-
 ## 🎥 Video Demonstration (Optional)
 
 If you create an 8+ minute video:
@@ -212,7 +176,7 @@ If you create an 8+ minute video:
 * Model results
 * Streamlit demo
 
-You can add the link here once uploaded.
+https://drive.google.com/drive/folders/1B1RQoYMZhbp3-3vKYlfSbT3xGW-g-owx?usp=sharing
 
 ---
 
@@ -222,10 +186,3 @@ For questions or suggestions:
 **GitHub:** [mangal-singh001](https://github.com/mangal-singh001)
 
 ---
-
-If you want, I can also:
-✅ Improve your `app.py` UI
-✅ Add badges, GIF demos, or screenshots to the README
-✅ Generate a professional LinkedIn post for this project
-
-Just tell me!
