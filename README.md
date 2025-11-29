@@ -1,27 +1,28 @@
 # 🛩️ Aerial Object Classification & Detection
 
-**Bird vs Drone Image Classification using Deep Learning**
+**🔍 Bird vs Drone Image Classification using Deep Learning**
 
-This project focuses on building, evaluating, and deploying a deep-learning-based **binary image classifier** that distinguishes **Birds** from **Drones** using aerial images.
-A simple and effective **Streamlit Web App (`app.py`)** is also included for real-time image prediction.
+This project involves building, evaluating, and deploying a deep-learning-based **binary image classifier** that identifies whether an aerial object is a **Bird** or a **Drone**.
+A clean and efficient **Streamlit Web App (`app.py`)** is also included for real-time predictions.
 
 ---
 
 ## 📌 Project Overview
 
-Airspace safety and wildlife monitoring require systems that can differentiate drones from birds. This project uses a supervised deep-learning model trained on aerial images belonging to two classes:
+Ensuring airspace safety requires reliable systems to differentiate between drones and birds.
+This project uses supervised deep learning to classify aerial object images into:
 
-* **Bird**
-* **Drone**
+🕊️ **Bird**
+🛸 **Drone**
 
-The notebook (`Aerial_Object.ipynb`) includes:
+The main notebook (`Aerial_Object.ipynb`) includes:
 ✔️ Data preprocessing
 ✔️ CNN/Transfer Learning model
-✔️ Training, validation, and testing
+✔️ Training, validation & testing
 ✔️ Evaluation metrics
-✔️ Saving the best-performing model
+✔️ Exporting the best-performing model
 
-The Streamlit app (`app.py`) loads the trained model and allows users to upload any image for real-time prediction.
+The Streamlit app (`app.py`) enables users to upload an image and get live predictions.
 
 ---
 
@@ -49,9 +50,9 @@ Aerial-Object-Classification-Detection/
 
 ## 📊 Dataset Summary
 
-A short overview of the dataset is available in `dataset_summary.csv`.
+A dataset summary is available in `dataset_summary.csv`.
 
-Typical structure:
+Typical folder structure:
 
 ```
 Data/
@@ -66,62 +67,67 @@ Data/
       └── drone/
 ```
 
-Dataset includes image counts for each class across train, validation, and test splits.
+This dataset contains balanced splits for training, validation, and testing.
 
 ---
 
 ## 🧠 Model Development (Notebook)
 
-The notebook (`Aerial_Object.ipynb`) covers:
+The notebook (`Aerial_Object.ipynb`) includes:
 
 ### ✔️ **Data Loading**
 
-* Reading images
-* Resizing
-* Normalizing
-* Converting to tensors
+📥 Reading images
+🖼️ Resizing images
+⚙️ Normalizing pixel values
+🔄 Converting images to tensors
 
 ### ✔️ **Data Augmentation**
 
-* Random flips
-* Rotation
-* Zoom
-* Brightness variation
+🔁 Random flips
+🔄 Rotation
+🔍 Zoom
+💡 Brightness adjustments
 
 ### ✔️ **Model Building**
 
-You may have used either:
+Two approaches explored:
+🧱 **Custom CNN**
+🚀 **Transfer Learning** (ResNet, MobileNet, EfficientNet)
 
-* Custom CNN
-  **or**
-* Transfer Learning (ResNet / MobileNet / EfficientNet)
+### ✔️ **Training Process**
 
-### ✔️ **Training**
+⏳ Epochs
+📦 Batch size
+🛑 EarlyStopping
+💾 ModelCheckpoint
 
-* Epochs
-* Batch size
-* Callbacks (EarlyStopping, ModelCheckpoint)
+### ✔️ **Model Evaluation**
 
-### ✔️ **Evaluation Metrics**
-
-* Accuracy
-* Precision
-* Recall
-* F1-Score
-* Confusion Matrix
-* Loss/Accuracy plots
+📈 Accuracy
+🎯 Precision
+🔁 Recall
+🏆 F1-Score
+🔳 Confusion Matrix
+📉 Training curves
 
 ### ✔️ **Model Export**
 
-The final model (`model.h5`) is saved for use in the Streamlit app.
+The trained model is saved as:
+
+```
+model.h5
+```
+
+Used later in the Streamlit app.
 
 ---
 
 ## 🚀 Streamlit Deployment
 
-A simple UI is implemented in `app.py`.
+A lightweight UI created using Streamlit.
 
-### **How to run the Streamlit app:**
+### ▶️ **How to run the Streamlit app**
 
 Install dependencies:
 
@@ -135,30 +141,31 @@ Run the app:
 streamlit run app.py
 ```
 
-### **Features:**
+### ✨ Features
 
-* Upload image (bird/drone)
-* Model processes and displays prediction
-* Shows classification confidence
-* Clean UI and fast inference
+📤 Upload image
+🤖 Model predicts Bird or Drone
+📊 Displays prediction confidence
+⚡ Fast inference
+🎨 Clean and simple UI
 
 ---
 
 ## 🛠️ Installation
 
-### 1. Clone the repository
+### 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/mangal-singh001/Aerial-Object-Classification-Detection.git
 ```
 
-### 2. Install dependencies
+### 2️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Run notebook or deploy Streamlit app
+### 3️⃣ Run notebook or deploy app
 
 ```bash
 streamlit run app.py
@@ -166,23 +173,25 @@ streamlit run app.py
 
 ---
 
-## 🎥 Video Demonstration (Optional)
+## 🎥 Video Demonstration
 
-If you create an 8+ minute video:
+If you want a quick walkthrough (8+ minutes):
+📹 Explanation of project
+🗂️ Dataset discussion
+📘 Notebook walkthrough
+📈 Model performance
+🌐 Demo of Streamlit app
 
-* Intro about the project
-* Dataset explanation
-* Notebook walkthrough
-* Model results
-* Streamlit demo
-
-https://drive.google.com/drive/folders/1B1RQoYMZhbp3-3vKYlfSbT3xGW-g-owx?usp=sharing
+🎬 **Video Folder:**
+[https://drive.google.com/drive/folders/1B1RQoYMZhbp3-3vKYlfSbT3xGW-g-owx?usp=sharing](https://drive.google.com/drive/folders/1B1RQoYMZhbp3-3vKYlfSbT3xGW-g-owx?usp=sharing)
 
 ---
 
 ## 📬 Contact
 
-For questions or suggestions:
-**GitHub:** [mangal-singh001](https://github.com/mangal-singh001)
+Feel free to reach out for suggestions or collaboration!
+
+🔗 **GitHub:** [mangal-singh001](https://github.com/mangal-singh001)
+🔗 **LinkedIn:** [Mangal Singh](https://www.linkedin.com/in/mangal-singh123/)
 
 ---
