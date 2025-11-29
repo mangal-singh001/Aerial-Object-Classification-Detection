@@ -1,8 +1,3 @@
-Here is your updated README with an additional closing line added at the end.
-You can copy-paste this directly into GitHub 👇
-
----
-
 # 🛩️ Aerial Object Classification & Detection
 
 **🔍 Bird vs Drone Image Classification using Deep Learning**
@@ -206,5 +201,3 @@ Feel free to reach out for suggestions or collaboration!
 If you find this project helpful, consider giving the repository a **star ⭐ on GitHub** — it motivates further improvements and new projects!
 
 ---
-
-If you want, I can also add badges, GIF previews, or a results table.
