@@ -26,6 +26,7 @@ The Streamlit app (`app.py`) enables users to upload an image and get live predi
 
 ---
 
+
 ## 📂 Repository Structure
 
 ```
